@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Factory_Method_Main",
+            "request": "launch",
+            "mainClass": "Factory_Method_Main"
+        }
+    ]
+}
