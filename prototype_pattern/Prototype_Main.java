@@ -8,7 +8,8 @@ public class Prototype_Main{
         b.setWorkExperience("2014-2017", "yy");
 
         Resume c = (Resume)b.clone();
-        c.setPersonalInfo("male", "21");
+        //c.setPersonalInfo("male", "21");
+        c.setWorkExperience("2013-2019", "zz");
 
         a.disPlay();
         b.disPlay();
