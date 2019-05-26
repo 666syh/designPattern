@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Prototype_Main",
+            "request": "launch",
+            "mainClass": "Prototype_Main"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Factory_Method_Main",
             "request": "launch",
             "mainClass": "Factory_Method_Main"
