@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Template_Main",
+            "request": "launch",
+            "mainClass": "Template_Main"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Prototype_Main",
             "request": "launch",
             "mainClass": "Prototype_Main"
