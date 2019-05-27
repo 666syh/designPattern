@@ -1,15 +1,19 @@
 //学生A答案
-public class TestPaperA extends TestPaper{
-    public void TestQuestion1(){
-        super.TestQuestion1();
-        System.out.println("答案：B");
+public class TestPaperA extends TestPaper {
+    
+    @Override
+    public String Answer1() {
+        return "A";
     }
-    public void TestQuestion2(){
-        super.TestQuestion2();
-        System.out.println("答案：A");
+
+    @Override
+    public String Answer2() {
+        return "C";
     }
-    public void TestQuestion3(){
-        super.TestQuestion3();
-        System.out.println("答案：C");
+
+    @Override
+    public String Answer3() {
+        return "D";
     }
+    
 }
