@@ -1,15 +1,12 @@
 package observer_pattern;
-public class StockObserver{
-    private String name;
-    private Secretary sub;
-    public StockObserver(){
-    }
-    public StockObserver(String name, Secretary sub){
-        this.name = name;
-        this.sub = sub;
+
+public class StockObserver extends Observer {
+    public StockObserver(String name, Secretary sub) {
+        super(name, sub);
     }
 
-    public void Update(){
+    @Override
+    public void updata() {
         System.out.printf("%s,%s关闭股票行情，继续工作\n", sub.getAction(), name);
     }
 }
