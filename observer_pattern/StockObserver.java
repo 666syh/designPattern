@@ -1,7 +1,7 @@
 package observer_pattern;
 
 public class StockObserver extends Observer {
-    public StockObserver(String name, Secretary sub) {
+    public StockObserver(String name, Subject sub) {
         super(name, sub);
     }
 

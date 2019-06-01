@@ -1,6 +1,6 @@
 package observer_pattern;
 public class NBAObserver extends Observer {
-    public NBAObserver(String name, Secretary sub){
+    public NBAObserver(String name, Subject sub){
         super(name, sub);
     }
     @Override

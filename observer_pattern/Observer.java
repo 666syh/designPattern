@@ -1,8 +1,8 @@
 package observer_pattern;
 public abstract class Observer{
     protected String name;
-    protected Secretary sub;
-    public Observer(String name, Secretary sub){
+    protected Subject sub;
+    public Observer(String name, Subject sub){
         this.name = name;
         this.sub = sub;
     }
