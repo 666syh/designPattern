@@ -1,3 +1,6 @@
+package factory_method_pattern;
+import java.lang.Exception;
+
 public abstract class Operator {
     double numberA;
     double numberB;
@@ -18,7 +21,7 @@ public abstract class Operator {
         this.numberB = numberB;
     }
 
-    public abstract double getResult();
+    public abstract double getResult() throws Exception;
 }
 
 class OperatorAdd extends Operator {
@@ -48,12 +51,7 @@ class OperatorMul extends Operator {
 class OperatorDiv extends Operator {
 
     @Override
-    public double getResult() {
-        if (numberB!=0){
+    public double getResult() throws Exception {
             return numberA/numberB;
-        }
-        else{
-            throw new Exception("除0异常！");
-        }
     }
 }

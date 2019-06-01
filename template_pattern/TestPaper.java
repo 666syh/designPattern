@@ -1,3 +1,4 @@
+package template_pattern;
 //试卷
 public abstract class TestPaper{
     public void TestQuestion1(){

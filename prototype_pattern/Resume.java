@@ -1,5 +1,5 @@
 //java的clone父类是java.lang.cloneable
-
+package prototype_pattern;
 public class Resume implements Cloneable {
     private String name;
     private String sex;

@@ -1,3 +1,4 @@
+package appearence_pattern;
 public abstract class Stock{
     public abstract void sell();
     public abstract void buy();

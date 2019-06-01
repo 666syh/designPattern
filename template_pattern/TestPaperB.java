@@ -1,3 +1,4 @@
+package template_pattern;
 //学生B答案
 public class TestPaperB extends TestPaper {
 

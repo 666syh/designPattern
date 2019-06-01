@@ -1,3 +1,4 @@
+package factory_method_pattern;
 //工厂接口
 public interface IFactory {
     Operator createOperator();

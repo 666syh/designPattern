@@ -1,3 +1,4 @@
+package template_pattern;
 public class Template_Main{
     public static void main(String[] args) {
         System.out.println("学生A答案：");

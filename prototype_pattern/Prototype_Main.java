@@ -1,3 +1,4 @@
+package prototype_pattern;
 public class Prototype_Main{
     public static void main(String[] args) throws CloneNotSupportedException{
         Resume a = new Resume("dn");

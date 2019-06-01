@@ -1,3 +1,4 @@
+package appearence_pattern;
 public class Fund{
     Stock st1;
     Stock st2;
