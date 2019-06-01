@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Observer_Main",
+            "request": "launch",
+            "mainClass": "observer_pattern.Observer_Main",
+            "projectName": "design_pattern_be483a81"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Builder_Main",
             "request": "launch",
             "mainClass": "builder_pattern.Builder_Main",
