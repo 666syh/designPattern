@@ -7,6 +7,8 @@ public abstract class Subject {
     //同事列表
     protected ArrayList<Observer> observers = new ArrayList<>();
 
+    
+
     public abstract void attach(Observer o);
     public abstract void detch(Observer o);
     public abstract void notifyObserver();
