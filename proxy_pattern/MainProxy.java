@@ -1,3 +1,4 @@
+package proxy_pattern;
 public class MainProxy{
     public static void main(String[] args) {
         SchoolGirl jj = new SchoolGirl();

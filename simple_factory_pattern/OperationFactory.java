@@ -1,4 +1,4 @@
-
+package simple_factory_pattern;
 public class OperationFactory{
     public static Operation createOperation(String operation){
         Operation op = null;

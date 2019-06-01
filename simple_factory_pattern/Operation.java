@@ -1,3 +1,6 @@
+package simple_factory_pattern;
+import java.lang.Exception;
+
 abstract class Operation {
     private double _numberA = 0;
     private double _numberB = 0;
@@ -57,7 +60,7 @@ class OperationDiv extends Operation{
     @Override
     public double GetResult() {
         if(get_numberB() == 0){
-            throw new Exception("除数不能为0!");
+            //throw new Exception("除数不能为0!");
         }
         return get_numberA()/get_numberB();
     }

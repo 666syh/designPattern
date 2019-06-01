@@ -1,3 +1,4 @@
+package decorator_pattern;
 public class Main{
     public static void main(String[] args) {
         Person xc = new Person("xc");   //光着身子的xc

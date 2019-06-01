@@ -1,3 +1,4 @@
+package proxy_pattern;
 public class SchoolGirl{
     private String name;
 

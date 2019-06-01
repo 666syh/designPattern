@@ -1,3 +1,4 @@
+package trategy_pattern;
 //商场收银软件
 public class View{
     private double price;   //单价

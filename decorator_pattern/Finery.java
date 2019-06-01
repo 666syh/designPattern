@@ -1,3 +1,4 @@
+package decorator_pattern;
 //装饰器抽象类，中封装一个component（可以是component的具体实现，也可以是其他装饰器）
 public class Finery extends Person {
     protected Person component;

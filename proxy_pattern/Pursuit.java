@@ -1,3 +1,4 @@
+package proxy_pattern;
 //被代理者，不被客户端直接请求，而通过代理者实现客户端请求
 public class Pursuit implements GiveGift {
     SchoolGirl mm;
