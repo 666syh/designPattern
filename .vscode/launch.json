@@ -2,41 +2,66 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - Observer_Main",
+            "name": "CodeLens (Launch) - StateMain",
             "request": "launch",
-            "mainClass": "observer_pattern.Observer_Main",
-            "projectName": "design_pattern_be483a81"
+            "mainClass": "state_pattern.StateMain",
+            "projectName": "designPattern_7a11f684"
         },
         {
             "type": "java",
             "name": "CodeLens (Launch) - Builder_Main",
             "request": "launch",
             "mainClass": "builder_pattern.Builder_Main",
-            "projectName": "design_pattern_be483a81"
+            "projectName": "designPattern_7a11f684"
         },
         {
             "type": "java",
             "name": "CodeLens (Launch) - Appearance_Main",
             "request": "launch",
-            "mainClass": "Appearance_Main"
+            "mainClass": "appearence_pattern.Appearance_Main",
+            "projectName": "designPattern_7a11f684"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Observer_Main",
+            "request": "launch",
+            "mainClass": "observer_pattern.Observer_Main",
+            "projectName": "designPattern_7a11f684"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Builder_Main",
+            "request": "launch",
+            "mainClass": "builder_pattern.Builder_Main",
+            "projectName": "designPattern_7a11f684"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Appearance_Main",
+            "request": "launch",
+            "mainClass": "Appearance_Main",
+            "projectName": "designPattern_7a11f684"
         },
         {
             "type": "java",
             "name": "CodeLens (Launch) - Template_Main",
             "request": "launch",
-            "mainClass": "Template_Main"
+            "mainClass": "Template_Main",
+            "projectName": "designPattern_7a11f684"
         },
         {
             "type": "java",
             "name": "CodeLens (Launch) - Prototype_Main",
             "request": "launch",
-            "mainClass": "Prototype_Main"
+            "mainClass": "Prototype_Main",
+            "projectName": "designPattern_7a11f684"
         },
         {
             "type": "java",
             "name": "CodeLens (Launch) - Factory_Method_Main",
             "request": "launch",
-            "mainClass": "Factory_Method_Main"
+            "mainClass": "Factory_Method_Main",
+            "projectName": "designPattern_7a11f684"
         }
     ]
 }
