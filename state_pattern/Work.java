@@ -18,7 +18,21 @@ public class Work{
     public void setFinish(boolean finish) {
         this.finish = finish;
     }
+
+    private State current;
+
+    public Work() {
+        current = new ForenoonState();
+    }
+    public void setState(State s){
+        this.current = s;
+        writeProgram();
+    }
     public void writeProgram(){
+        current.writeProgram(this);
+    }
+
+    /* public void writeProgram(){
         if(hour<12){
             System.out.printf("当前时间：%d 点 上午工作，精神百倍\n", hour);
         }
@@ -40,5 +54,5 @@ public class Work{
                 }
             }
         }
-    }
+    } */
 }
