@@ -4,18 +4,15 @@ public class MemoryMain {
         GameRole role = new GameRole();
         role.getInitState();
         role.showState();
-
-        GameRole backup = new GameRole();
-        backup.setVit(role.getVit());
-        backup.setAtk(role.getAtk());
-        backup.setDef(role.getDef());
+        
+        //通过管理者来管理备份
+        RoleStateCaretaker stateAdmin = new RoleStateCaretaker();
+        stateAdmin.setMemento(role.saveState());
 
         role.fight();
         role.showState();
         
-        role.setVit(backup.getVit());
-        role.setAtk(backup.getAtk());
-        role.setDef(backup.getDef());
+        role.RecoveryState(stateAdmin.getMemento());
 
         role.showState();
     }

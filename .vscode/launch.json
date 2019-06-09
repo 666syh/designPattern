@@ -4,12 +4,6 @@
             "type": "java",
             "name": "CodeLens (Launch) - MemoryMain",
             "request": "launch",
-            "mainClass": "memory_pattern.MemoryMain"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - MemoryMain",
-            "request": "launch",
             "mainClass": "memory_pattern.MemoryMain",
             "projectName": "designPattern_7a11f684"
         },

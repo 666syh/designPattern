@@ -20,6 +20,17 @@ public class GameRole{
         atk = 0;
         def = 0;
     }
+    //保存状态
+    public RoleStateMemento saveState(){
+        return new RoleStateMemento(vit, atk, def);
+    }
+    //回复状态
+    public void RecoveryState(RoleStateMemento memento){
+        this.vit = memento.getVit();
+        this.atk = memento.getAtk();
+        this.def = memento.getDef();
+    }
+
     public int getVit() {
         return vit;
     }
