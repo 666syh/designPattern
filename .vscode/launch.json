@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - AdapterMain",
+            "request": "launch",
+            "mainClass": "adapter_pattern.AdapterMain",
+            "projectName": "designPattern_7a11f684"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - StateMain",
             "request": "launch",
             "mainClass": "state_pattern.StateMain",
