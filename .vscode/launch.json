@@ -2,6 +2,19 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MemoryMain",
+            "request": "launch",
+            "mainClass": "memory_pattern.MemoryMain"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MemoryMain",
+            "request": "launch",
+            "mainClass": "memory_pattern.MemoryMain",
+            "projectName": "designPattern_7a11f684"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - AdapterMain",
             "request": "launch",
             "mainClass": "adapter_pattern.AdapterMain",
