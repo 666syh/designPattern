@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - IteratorMain",
+            "request": "launch",
+            "mainClass": "iterator_pattern.IteratorMain",
+            "projectName": "designPattern_7a11f684"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CompositeMain",
             "request": "launch",
             "mainClass": "composite_pattern.CompositeMain",
