@@ -6,7 +6,11 @@ public class Singleton{
     }
     public static Singleton GetInstance(){
         if(instance == null){
-            instance = new Singleton();
+            synchronized(Singleton.class){
+                if(instance == null)
+                    instance = new Singleton();
+            }
+            
         }
         return instance;
     }
