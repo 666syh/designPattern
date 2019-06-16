@@ -1,96 +1,14 @@
 {
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - IteratorMain",
+            "name": "Debug (Launch) - Current File",
             "request": "launch",
-            "mainClass": "iterator_pattern.IteratorMain",
-            "projectName": "designPattern_7a11f684"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - CompositeMain",
-            "request": "launch",
-            "mainClass": "composite_pattern.CompositeMain",
-            "projectName": "designPattern_7a11f684"
-        },
-        
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - MemoryMain",
-            "request": "launch",
-            "mainClass": "memory_pattern.MemoryMain",
-            "projectName": "designPattern_7a11f684"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - AdapterMain",
-            "request": "launch",
-            "mainClass": "adapter_pattern.AdapterMain",
-            "projectName": "designPattern_7a11f684"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - StateMain",
-            "request": "launch",
-            "mainClass": "state_pattern.StateMain",
-            "projectName": "designPattern_7a11f684"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Builder_Main",
-            "request": "launch",
-            "mainClass": "builder_pattern.Builder_Main",
-            "projectName": "designPattern_7a11f684"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Appearance_Main",
-            "request": "launch",
-            "mainClass": "appearence_pattern.Appearance_Main",
-            "projectName": "designPattern_7a11f684"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Observer_Main",
-            "request": "launch",
-            "mainClass": "observer_pattern.Observer_Main",
-            "projectName": "designPattern_7a11f684"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Builder_Main",
-            "request": "launch",
-            "mainClass": "builder_pattern.Builder_Main",
-            "projectName": "designPattern_7a11f684"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Appearance_Main",
-            "request": "launch",
-            "mainClass": "Appearance_Main",
-            "projectName": "designPattern_7a11f684"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Template_Main",
-            "request": "launch",
-            "mainClass": "Template_Main",
-            "projectName": "designPattern_7a11f684"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Prototype_Main",
-            "request": "launch",
-            "mainClass": "Prototype_Main",
-            "projectName": "designPattern_7a11f684"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Factory_Method_Main",
-            "request": "launch",
-            "mainClass": "Factory_Method_Main",
-            "projectName": "designPattern_7a11f684"
+            "mainClass": "${file}"
         }
     ]
 }
