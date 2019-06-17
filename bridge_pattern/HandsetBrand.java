@@ -1,4 +1,4 @@
 package bridge_pattern;
-public abstract class HandsetGame{
+public abstract class HandsetBrand {
     public abstract void run();
 }
