@@ -2,13 +2,16 @@ package bridge_pattern;
 public class BridgeMain{
     public static void main(String[] args) {
         HandsetBrand ab;
-        ab = new HandsetBrandMAddressList();
+        ab = new HandsetBrandN();
+        ab.setHandsetSoft(new HandsetAddressList());
         ab.run();
-        ab = new HandsetBrandNAddressList();
+        ab.setHandsetSoft(new HandsetGame());
         ab.run();
-        ab = new HandsetBrandMGame();
+
+        ab = new HandsetBrandM();
+        ab.setHandsetSoft(new HandsetAddressList());
         ab.run();
-        ab = new HandsetBrandNGame();
+        ab.setHandsetSoft(new HandsetGame());
         ab.run();
     }
 }
