@@ -2,12 +2,15 @@ package command_pattern;
 public class CommandMain{
     public static void main(String[] args) {
         Barbecuer boy = new Barbecuer();
-        boy.BakeMutton();
-        boy.BakeMutton();
-        boy.BakeMutton();
+        Command bakeMuttoCommand = new BakeMuttonCommand(boy);
+        Command bakeChickeCommand = new BakeChickenCommand(boy);
+        Waiter girl = new Waiter();
 
-        boy.BakeChicken();
-        boy.BakeMutton();
-        boy.BakeChicken();
+        girl.setOrder(bakeMuttoCommand);
+        girl.Notify();
+        girl.setOrder(bakeMuttoCommand);
+        girl.Notify();
+        girl.setOrder(bakeChickeCommand);
+        girl.Notify();
     }
 }
