@@ -7,10 +7,9 @@ public class CommandMain{
         Waiter girl = new Waiter();
 
         girl.setOrder(bakeMuttoCommand);
-        girl.Notify();
         girl.setOrder(bakeMuttoCommand);
-        girl.Notify();
         girl.setOrder(bakeChickeCommand);
+        girl.setOrder(bakeMuttoCommand);
         girl.Notify();
     }
 }

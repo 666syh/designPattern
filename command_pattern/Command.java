@@ -1,15 +1,22 @@
 package command_pattern;
-public abstract class Command{
+
+public abstract class Command {
     protected Barbecuer receiver;
 
     public Command(Barbecuer receiver) {
         this.receiver = receiver;
     }
-    //执行命令
+
+    // 执行命令
     public abstract void ExcuteCommand();
+
+    @Override
+    public String toString() {
+        return getClass().getName();
+    }
 }
 
-class BakeMuttonCommand extends Command{
+class BakeMuttonCommand extends Command {
 
     public BakeMuttonCommand(Barbecuer receiver) {
         super(receiver);
